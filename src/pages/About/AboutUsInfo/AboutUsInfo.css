@@ -1,0 +1,49 @@
+.aboutus-info {
+    padding: 50px 0;
+}
+
+.aboutus-info p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #888888;
+}
+
+.aboutus-info h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #222222;
+    margin-bottom: 30px;
+}
+.aboutus-info span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+}
+
+.aboutus-info .info-right {
+    padding-top: 50px;
+}
+
+.aboutus-info .info-right .info-right-desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+}
+
+.aboutus-info .info-right .sign {
+    margin-bottom: 10px;
+}
+
+.aboutus-info .info-right .about-author {
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+}
+
+.aboutus-info .info-right .about-author span {
+    color: #c50215 !important;
+    font-weight: 400;
+    font-size: 18px;
+}
+

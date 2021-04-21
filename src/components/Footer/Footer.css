@@ -1,0 +1,149 @@
+footer {
+    display: block;
+}
+
+a:hover{
+    color: #695afd;
+}
+
+
+
+.footer-v1 .footer-top {
+    padding: 120px 0;
+}
+
+.footer-container{
+    padding: 0 30px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.footer-v1 .footer-top h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.footer-contact {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact span {
+    margin-right: 15px;
+    line-height: 27px;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li a {
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    transition: all .3s ease;
+    line-height: 32px;
+    text-decoration: none !important;
+}
+
+.footer-v1 .footer-top ul li a::before{  
+    color: #695afd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    white-space: nowrap;
+    transition: .5s ease 0s;
+    overflow: hidden;
+}
+
+.footer-v1 .footer-top ul li a.acc::before {
+    content: "My Account";
+}
+.footer-v1 .footer-top ul li a.login::before {
+    content: "Login";
+}
+.footer-v1 .footer-top ul li a.cart::before {
+    content: "My Cart";
+}
+.footer-v1 .footer-top ul li a.wishlist::before {
+    content: "Wishlist";
+}
+.footer-v1 .footer-top ul li a.checkout::before {
+    content: "Checkout";
+}
+.footer-v1 .footer-top ul li a.about::before {
+    content: "About Us";
+}
+.footer-v1 .footer-top ul li a.careers::before {
+    content: "Careers";
+}
+.footer-v1 .footer-top ul li a.delivery::before {
+    content: "Delivery Information";
+}
+.footer-v1 .footer-top ul li a.privacy::before {
+    content: "Privacy Policy";
+}
+.footer-v1 .footer-top ul li a.terms::before {
+    content: "Terms & Conditions";
+}
+.footer-v1 .footer-top ul li a.shipping::before {
+    content: "Shipping Policy";
+}
+.footer-v1 .footer-top ul li a.compensation::before {
+    content: "Compensation First";
+}
+.footer-v1 .footer-top ul li a.return::before {
+    content: "Return Policy";
+}
+.footer-v1 .footer-top ul li a.contact::before {
+    content: "Contact Us";
+}
+
+.footer-v1 .footer-top ul li a:hover::before{
+    width: 100%;
+}
+
+
+.footer-v1 .footer-bottom {
+    padding: 30px 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.footer-v1 .footer-bottom .desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.footer-v1 .footer-bottom .socials span {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #aaaaaa;
+}
+
+.footer-v1 .footer-bottom .socials a {
+    text-decoration: none !important; 
+    margin: 0px 8px;
+    display: inline-block;
+    color: #aaaaaa;
+}

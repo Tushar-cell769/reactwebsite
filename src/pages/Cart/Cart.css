@@ -1,0 +1,87 @@
+.my-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-left: 15px;
+}
+
+.page-cart {
+    padding: 100px 0;
+}
+
+.content-pages {
+    padding: 30px 0;
+}
+
+.page-cart .content-cart-page .shop_table {
+    border: 1px solid #dee2e6 !important;
+}
+
+.page-cart .content-cart-page .shop_table .cart-title th {
+    border-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #000;
+    padding: 15px 20px;
+    border: 1px solid #dee2e6 !important;
+}
+
+.page-cart .content-cart-page .shop_table .cart-title .product-price, .page-cart .content-cart-page .shop_table .cart-title .product-quantity, .page-cart .content-cart-page .shop_table .cart-title .product-subtotal {
+    text-align: center;
+}
+
+
+.page-cart .content-cart-page .shop_table .cart-item .product-thumbnail {
+    width: 140px;
+}
+.page-cart .content-cart-page .shop_table .cart-item .product-thumbnail a img {
+    width: 70px;
+}
+
+
+
+.page-cart .content-cart-page .shop_table .cart-item .product-name-thumb {
+    vertical-align: middle;
+}
+
+.page-cart .content-cart-page .shop_table .cart-item .product-name-thumb a {
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.page-cart .content-cart-page .shop_table .cart-item .product-price {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.page-cart .content-cart-page .shop_table .cart-item .product-quantity {
+    text-align: center;
+    vertical-align: middle;
+}
+.page-cart .content-cart-page .shop_table .cart-item .product-subtotal {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.page-cart .content-cart-page .shop_table .cart-item .product-remove {
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (min-width: 1200px) {
+    .my-container {
+        padding: 0 30px;
+    }
+}

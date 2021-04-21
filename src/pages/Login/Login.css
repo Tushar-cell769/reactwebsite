@@ -1,0 +1,8 @@
+.form-action-button a {
+    float: right;
+    margin-top: 7px;
+}
+.login-toggle-btn a {
+    color: #333333;
+    transition: all 0.3s ease 0s;
+}

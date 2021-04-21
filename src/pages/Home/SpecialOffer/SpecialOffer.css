@@ -1,0 +1,134 @@
+.special-hover .img-url {
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  
+  .special-hover .img-url::before {
+    content: "";
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      -webkit-transform: scale(0, 1);
+      -moz-transform: scale(0, 1);
+      -ms-transform: scale(0, 1);
+      -o-transform: scale(0, 1);
+      transform: scale(0, 1);
+      transition: transform 0.4s linear 0s;
+      -o-transition: -o-transform 0.4s linear 0s;
+      -webkit-transition: -webkit-transform 0.4s linear 0s;
+      z-index: 1;
+  }
+  .special-hover a::before {
+    border-top: 1px solid rgba(255,255,255,0.3);
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+  }
+  
+  .special-hover .img-url::after {
+    content: "";
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      -webkit-transform: scale(1, 0);
+      -moz-transform: scale(1, 0);
+      -ms-transform: scale(1, 0);
+      -o-transform: scale(1, 0);
+      transform: scale(1, 0);
+      transition: transform 0.4s linear 0s;
+      -o-transition: -o-transform 0.4s linear 0s;
+      -webkit-transition: -webkit-transform 0.4s linear 0s;
+      z-index: 1;
+  }
+  
+  .special-hover a::after {
+    border-left: 1px solid rgba(255,255,255,0.3);
+      border-right: 1px solid rgba(255,255,255,0.3);
+  }
+  
+  .special-hover img {
+    width: 100%;
+      transition: opacity 0.8s ease,transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .special-hover:hover img {
+    transform: scale(1.05);
+  }
+  
+  .special-hover:hover .img-url::before {
+      -moz-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      -o-transform: scale(1, 1);
+      transform: scale(1, 1);
+  }
+  
+  .special-hover:hover .img-url::after {
+      -moz-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      -o-transform: scale(1, 1);
+      transform: scale(1, 1);
+  }
+  
+  .special-hover .special-banner-info-left {
+    position: absolute;
+    margin-top: -400px;
+      left: 95px;
+      z-index: 1;
+      pointer-events: auto;
+  }
+  
+  .special-hover .special-banner-info-right {
+    position: absolute;
+      margin-top: -400px;
+      margin-left: 95px;
+      z-index: 1;
+      pointer-events: auto;
+  }
+  
+  .special-hover .info-text h5{
+    font-size: 30px;
+      font-weight: 400;
+      color: #fff;
+  }
+  
+  .special-hover .info-text h2 {
+    font-size: 60px;
+      line-height: 60px;
+      font-weight: 700;
+      color: #fff;
+  }
+  
+  .special-hover .info-text strong {
+    color: #ffc900;
+      margin-left: 10px;
+  }
+  
+  .special-hover .info-text .button-name {
+    margin-top: 40px;
+      display: inline-block;
+  }
+  
+  .button-name {
+    text-decoration: none !important;
+      font-size: 18px;
+      background: #222;
+      color: #fff;
+      padding: 10px 50px;
+      border-radius: 50px;
+      text-transform: capitalize;
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      transition: .3s;
+  }
+  
+  .button-name:hover {
+    color: #695afd;
+    background-color: #fff;
+  }
+  

@@ -1,0 +1,64 @@
+.home-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  
+}
+.first-col{
+  grid-column: 1 / span 6;
+  height: auto;
+}
+.second-col{
+  grid-column: 7 / span 12;
+}
+
+
+
+.brandCarousel {
+  margin-top: 110px;
+}
+
+.nike-banner {
+  margin-top: 115px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+img.nike {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+.nike-info {
+  position: absolute;
+  top: 35%;
+  right: 40px;
+  transform: translateY(-50%);
+}
+
+.nike-info h2 {
+  font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nike-info h5 {
+  font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+/* EQT */
+
+
+
+@media screen and (max-width: 480px) {
+  .timer div:last-child {
+      margin-left: 2em;
+      margin-left: 2em;
+      padding: 3em 1em ;
+  }
+}
+

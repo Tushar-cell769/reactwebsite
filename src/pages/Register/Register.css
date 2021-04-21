@@ -1,0 +1,48 @@
+.login-form-container {
+    background: #f3f3f3 none repeat scroll 0 0;
+    padding: 37px 40px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.login-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-text h2 {
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.login-text p {
+    color: #666666;
+    font-size: 15px;
+}
+
+.login-form-container input {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none rgba(0, 0, 0, 0);
+    border-radius: 0;
+    box-shadow: none;
+    color: #333333;
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 100%;
+}
+.form-action-button {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.btn-sqr {
+    background-color: #c50215;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+    padding: 13px 25px;
+}

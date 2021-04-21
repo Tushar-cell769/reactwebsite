@@ -1,0 +1,52 @@
+.service-page {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.service-page .service-content {
+    padding-top: 50px;
+}
+
+.service-page .service {
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    border: 2px solid #f4f4f4;
+}
+
+.service-page .service a {
+    text-decoration: none;
+    line-height: 50px;
+    margin-right: 20px;
+    color: #222;
+    font-size: 40px;
+}
+
+.service-page .service img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.service-page .service-info {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.service-page .service .service-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+}
+
+.service-page .service .service-info p {
+    font-weight: 400;
+    color: #c90215;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 1200px) {
+    .my-container {
+        padding: 0 30px;
+    }
+}

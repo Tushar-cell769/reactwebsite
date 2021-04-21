@@ -1,0 +1,52 @@
+.MuiDialog-paperScrollPaper {
+    width: 1000px !important;
+    background: #ffffff5e !important;
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    padding: 25px;
+}
+.MuiDialogContent-dividers {
+    border: none !important;
+    padding: 0px 24px;
+}
+
+.MuiDialogTitle-root {
+    padding: 0px 24px;
+}
+
+.popup-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-title-container h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.popup-close-button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+}
+.popup-content-container .searchbar {
+    height: auto;
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+.popup-content-container .searchbar input {
+    margin: 30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+}

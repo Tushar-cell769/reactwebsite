@@ -1,0 +1,19 @@
+/* 
+ol {
+    margin-top: 10px;
+    padding: 20px;
+}
+li{
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.categoryContainer{
+    padding: 20px;
+}
+.left-side-category {
+    grid-column: 2 / span 4;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 20px;
+    height: auto;
+} */

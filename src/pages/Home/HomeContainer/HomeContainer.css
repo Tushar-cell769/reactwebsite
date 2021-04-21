@@ -1,0 +1,236 @@
+/* 
+  .inner-collumn {
+    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
+    padding: 7em 5em;
+    height: 400px;
+  }
+  .home-img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .style-grid-2-text_info h3 {
+    font-size: 30px;
+    text-align: left;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.41);
+  }
+  .style-grid-2-text_info p {
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.9em;
+    margin: 1em 0 2em 0;
+  }
+
+  .shop-button a {
+    background: #000;
+    color: #fff;
+    padding: 0.6em 1em;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+  }
+  
+  .shop-button a:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #c7c7c7;
+  }
+  
+  .style-image-2 {
+    position: relative;
+  }
+  
+  img.air-force {
+    width: 100%;
+  }
+  
+  .style-grid-2-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+  }
+  .style-grid-2-text h3 {
+    font-size: 30px;
+    text-align: left;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  } */
+
+
+  .banner-item {
+    overflow: hidden;
+  }
+  .banner-item .img-url {
+    overflow: hidden;
+    position: relative;
+    height: 434px;
+  }
+
+  .banner-item.style2 a::before {
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+  }
+
+  .banner-item .img-url::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    transform: scale(0, 1);
+    transition: transform 0.4s linear 0s;
+    -webkit-transition: -webkit-transform 0.4s linear 0s;
+    z-index: 1;
+  }
+
+  .banner-item img {
+    transition: opacity 0.8s ease,transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+}
+
+.banner-item.style2 a::after {
+  border-left: 1px solid rgba(255,255,255,0.3);
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+.banner-item .img-url::after {
+  content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    transform: scale(1, 0);
+    transition: transform 0.4s linear 0s;
+    -o-transition: -o-transform 0.4s linear 0s;
+    -webkit-transition: -webkit-transform 0.4s linear 0s;
+    z-index: 1;
+}
+
+.banner-1 .banner-left-info {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.banner-1 .banner-left-info h5 {
+  font-size: 25px;
+    font-weight: 400;
+    color: #222;
+} 
+.banner-1 .banner-left-info h2 {
+  font-size: 39px;
+    line-height: 39px;
+    font-weight: 700;
+    color: #222;
+} 
+
+
+/* Hover */
+.banner-item:hover .img-url::before {
+  transform: scale(1,1);
+}
+.banner-item:hover img {
+  transform: scale(1.05);
+}
+
+.banner-item:hover .img-url::after {
+  transform: scale(1,1);
+}
+
+.banner-2 {
+  position: relative;
+  width: 100%;
+  pointer-events: unset;
+}
+
+.banner-2 .banner-right-info1 {
+  position: absolute;
+  padding-left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.banner-2 .banner-right-info1 h2 {
+  font-size: 39px;
+  line-height: 39px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.banner-2 .banner-right-info1 h5 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+
+.banner-2 .banner-right-info1 .button-name {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.banner-2 .banner-right-info2 {
+  width: 50%;
+  right: 15px;
+  padding-left: unset;
+}
+
+.banner-2 .banner-right-info2 {
+  position: absolute;
+  padding-left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.banner-2 .banner-right-info2 h5 {
+  margin-bottom: 5px;
+}
+.banner-2 .banner-right-info2 h5 {
+  font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+.banner-2 .banner-right-info2 h2 {
+  margin-bottom: 0;
+}
+.banner-2 .banner-right-info2 h2 {
+  font-size: 39px;
+    line-height: 39px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+
+
+@media screen and (max-width: 1599px) and (min-width: 768px) {
+  .banner-2 a {
+    height: 100%;
+  }
+  .banner-2 a img {
+    height: 100%;
+  }
+}
+
